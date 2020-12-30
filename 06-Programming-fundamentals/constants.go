@@ -23,4 +23,10 @@ func main() {
 	fmt.Printf("%T\n", b)
 	fmt.Println(c)
 	fmt.Printf("%T\n", c)
+	fmt.Println(d)
+	fmt.Printf("%T\n", d)
+	fmt.Println(e)
+	fmt.Printf("%T\n", e)
+	fmt.Println(f)
+	fmt.Printf("%T\n", f)
 }
