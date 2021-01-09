@@ -14,4 +14,11 @@ func main() {
 	for k, v := range m {
 		fmt.Println(k, "=", v)
 	}
+
+	// Map - delete
+	delete(m, "James")
+	fmt.Println(m)
+	// we also can delete not existed element without error
+	delete(m, "Hello")
+	fmt.Println(m)
 }
