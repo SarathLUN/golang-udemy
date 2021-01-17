@@ -1,24 +1,27 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	xi := []int{2, 3, 5, 6}
-	x := sum(xi...)
-	fmt.Println("x = ", x)
-	fmt.Println("---")
-
+	x := sum("james")
+	fmt.Println("The total is", x)
 }
 
-func sum(i ...int) int {
-	fmt.Println(i)
-	fmt.Printf("%T\n", i)
+func sum(s string, x ...int) int {
+	fmt.Println(x)
+	fmt.Printf("%T\n", x)
+	fmt.Println(len(x))
+	fmt.Println(cap(x))
 
 	sum := 0
-	for i, v := range i {
+	for i, v := range x {
 		sum += v
 		fmt.Println("for item in index position", i, "we are now adding", v, "to the total which is now", sum)
 	}
-	fmt.Println("Sum = ", sum)
+	fmt.Println("The total is", sum)
 	return sum
 }
+
+/// func (r receiver) identifier(parameter(s)) (return(s)) { code}
