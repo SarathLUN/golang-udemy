@@ -9,6 +9,10 @@ func main() {
 
 	y := sum(5, 2, 7, 9, 10, 334, 8, 4, 5)
 	fmt.Println("y = ", y)
+	fmt.Println("---")
+
+	z := sum()
+	fmt.Println(z)
 }
 
 func sum(i ...int) int {
