@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	x := sum(2, 3, 5, 6)
-	fmt.Println("X = ", x)
+	fmt.Println("x = ", x)
 	fmt.Println("---")
 
 	y := sum(5, 2, 7, 9, 10, 334, 8, 4, 5)
