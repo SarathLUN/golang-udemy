@@ -10,6 +10,7 @@ func main() {
 }
 
 func sum(s string, x ...int) int {
+	fmt.Println(s)
 	fmt.Println(x)
 	fmt.Printf("%T\n", x)
 	fmt.Println(len(x))
