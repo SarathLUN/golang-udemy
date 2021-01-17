@@ -3,8 +3,13 @@ package main
 import "fmt"
 
 func main() {
+	//basic func
 	foo()
+
+	//takes an argument
 	bar("James")
+
+	//return
 	result := woo(1, 2)
 	fmt.Println(result)
 }
