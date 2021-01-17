@@ -5,6 +5,12 @@ import "fmt"
 func main() {
 	foo()
 	bar("James")
+	result := woo(1, 2)
+	fmt.Println(result)
+}
+
+func woo(i int, j int) int {
+	return i + j
 }
 
 func bar(s string) {
