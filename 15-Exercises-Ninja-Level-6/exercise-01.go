@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println(foo())
 	fmt.Println(bar())
-	i, s := bar()
+	i, s := bar() // this is how to catch multiple return values
 	fmt.Println(i)
 	fmt.Println(s)
 }
