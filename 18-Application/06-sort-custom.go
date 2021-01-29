@@ -10,8 +10,10 @@ type Person struct {
 	Age  int
 }
 
+// create new type
 type ByAge []Person
 
+// then implement sort.Interface
 func (a ByAge) Len() int {
 	return len(a)
 }
