@@ -35,5 +35,5 @@ func main() {
 	if e != nil {
 		fmt.Println(e)
 	}
-	fmt.Println("\n", string(j))
+	fmt.Println(string(j))
 }
