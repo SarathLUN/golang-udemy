@@ -75,7 +75,7 @@ func main() {
 
 	users := []user{u1, u2, u3}
 
-	fmt.Println(users)
+	DD(users)
 	// sort inside first
 	for _, u := range users {
 		sort.Strings(u.Sayings)
