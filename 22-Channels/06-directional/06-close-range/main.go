@@ -28,7 +28,7 @@ func main() {
 
 	goroutine 1 [chan receive]:
 	main.main()
-		/Users/tony/go-space/src/golang-udemy/22-Channels/06-directional/06-close-range/main.go:15 +0xe5
+		/Users/tony/go-space/src/golang-udemy/22-Channels/06-directional/06-close-range/01-closing-channel-with-bool.go:15 +0xe5
 	exit status 2
 	---
 	*/
