@@ -9,7 +9,7 @@ func main() {
 		for i := 0; i < 5; i++ {
 			c <- i
 		}
-		//close(c)
+		//close(c)  // see the Note
 	}()
 	// receive from looping channel
 	for v := range c {
