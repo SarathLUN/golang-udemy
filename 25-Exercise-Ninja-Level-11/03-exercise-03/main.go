@@ -18,6 +18,7 @@ func main() {
 }
 
 func foo(e error) {
-	fmt.Println("foo ran -", e, "\n")
+	fmt.Println("foo ran -", e)
+	fmt.Println("foo ran with assertion:", e.(customErr).info)
 
 }
