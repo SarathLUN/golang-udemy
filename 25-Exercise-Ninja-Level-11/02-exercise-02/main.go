@@ -32,7 +32,7 @@ func main() {
 func toJSON(a interface{}) ([]byte, error) {
 	bs, err := json.Marshal(a)
 	if err != nil {
-		return nil, fmt.Errorf("CusErrMsg: %v", err)
+		return []byte{}, fmt.Errorf("CusErrMsg: %v", err)
 	}
 	return bs, nil
 }
