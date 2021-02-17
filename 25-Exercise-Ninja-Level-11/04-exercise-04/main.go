@@ -1,3 +1,6 @@
+/*
+Package main of Exercise Ninja Level 11 and hand-on exercise number 4
+*/
 package main
 
 import (
