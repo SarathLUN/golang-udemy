@@ -9,7 +9,8 @@ import (
 func main() {
 	fmt.Println(word.Count(quote.SunAlso))
 
+	//todo: remove punctuation before count
 	for k, v := range word.UseCount(quote.SunAlso) {
-		fmt.Println(v, k)
+		fmt.Println(k, v)
 	}
 }
